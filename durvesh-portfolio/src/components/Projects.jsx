@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { FiExternalLink, FiGithub } from 'react-icons/fi';
+import { FiGithub } from 'react-icons/fi';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { projectsData } from '../constants/projects';

@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import { FiArrowRight } from 'react-icons/fi';
 import { startTypingEffect } from '../utils/typing';
 
 const Hero = () => {
@@ -35,7 +34,7 @@ const Hero = () => {
           <div className="hero-typing">
             <span id="typing"></span><span className="cursor"></span>
           </div>
-          
+
           <p className="hero-desc">
             Mechanical Engineer turned Full Stack Developer & AI Enthusiast. Building scalable enterprise solutions with .NET, Angular, and Azure — architecting tomorrow's systems today.
           </p>

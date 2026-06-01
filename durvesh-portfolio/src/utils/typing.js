@@ -60,7 +60,9 @@ export const stopTypingEffect = () => {
   isRunning = false;
 };
 
-export default {
+const typingUtils = {
   startTypingEffect,
   stopTypingEffect,
 };
+
+export default typingUtils;
