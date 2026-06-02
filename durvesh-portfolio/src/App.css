@@ -1068,3 +1068,166 @@
     font-size: 1.3rem;
   }
 }
+/* =========================
+   ABOUT SECTION
+========================= */
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 40px;
+  align-items: start;
+}
+
+.about-text {
+  width: 100%;
+}
+
+.about-text p {
+  color: var(--text2);
+  font-size: 0.95rem;
+  line-height: 1.9;
+  margin-bottom: 16px;
+}
+
+.about-text p strong {
+  color: var(--text);
+  font-weight: 600;
+}
+
+.about-card {
+  background: var(--bg3);
+  border: 1px solid var(--border2);
+  border-radius: 16px;
+  padding: 24px;
+  height: fit-content;
+}
+
+.about-card-label {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--cyan);
+  margin-bottom: 20px;
+}
+
+.about-facts {
+  margin-top: 24px;
+  display: grid;
+  gap: 12px;
+}
+
+.about-fact {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--text2);
+  font-size: 0.95rem;
+  word-break: break-word;
+}
+
+.about-fact i {
+  color: var(--cyan);
+  width: 20px;
+  flex-shrink: 0;
+}
+
+.cert-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--border2);
+}
+
+.cert-item:last-child {
+  border-bottom: none;
+}
+
+.cert-icon {
+  color: var(--cyan);
+  margin-top: 4px;
+  font-size: 1.1rem;
+}
+
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 768px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .about-card {
+    order: -1;
+  }
+
+  .about-text p {
+    font-size: 0.92rem;
+    line-height: 1.8;
+  }
+
+  .about-fact {
+    font-size: 0.88rem;
+  }
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 480px) {
+  .about-grid {
+    gap: 20px;
+  }
+
+  .about-card {
+    padding: 18px;
+  }
+
+  .about-text p {
+    font-size: 0.9rem;
+    line-height: 1.75;
+  }
+
+  .about-fact {
+    font-size: 0.82rem;
+    align-items: flex-start;
+  }
+
+  .section-title {
+    font-size: 1.6rem;
+  }
+
+  .cert-item {
+    gap: 10px;
+  }
+}
+@media (max-width: 768px) {
+
+  .hero-inner {
+    grid-template-columns: 1fr !important;
+  }
+
+  .hero-photo-wrap {
+    order: 1;
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero-content {
+    order: 2;
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  .hero-photo-wrap {
+    width: 100%;
+    overflow: visible;
+  }
+
+  .hero-photo-ring {
+    margin: 0 auto;
+  }
+}

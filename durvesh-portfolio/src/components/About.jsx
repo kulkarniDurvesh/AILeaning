@@ -21,10 +21,10 @@ const About = () => {
             <p>With 4+ years of professional experience at <strong>IKS Health</strong> and <strong>Saviant Consulting</strong>, I've shipped production systems in US healthcare, environmental tech, eCommerce, and enterprise automation — always with an eye toward scalability and maintainability.</p>
             <p>My goal: grow into a <strong>Solution Architect</strong> who bridges the gap between business problems and elegant technical systems.</p>
             <div class="about-facts">
-              <div class="about-fact"><i class="fas fa-envelope"></i> durveshkulkarni55@gmail.com</div>
-              <div class="about-fact"><i class="fas fa-phone"></i> +91 70669 16579</div>
-              <div class="about-fact"><i class="fab fa-github"></i> kulkarniDurvesh</div>
-              <div class="about-fact"><i class="fab fa-linkedin"></i> durvesh-kulkarni</div>
+              <div className="about-fact"><i className="fas fa-envelope"></i> durveshkulkarni55@gmail.com</div>
+              <div className="about-fact"><i className="fas fa-phone"></i> +91 70669 16579</div>
+              <div className="about-fact"><i className="fab fa-github"></i> kulkarniDurvesh</div>
+              <div className="about-fact"><i className="fab fa-linkedin"></i> durvesh-kulkarni</div>
             </div>
           </div>
 
