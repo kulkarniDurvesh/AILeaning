@@ -14,7 +14,7 @@ export const awardsData = [
     emoji: '⭐',
     name: 'SPOT Light Award',
     from: 'Saviant Consulting',
-    year: '2025',
+    year: '2026',
     description:
       'Recognized for exceptional performance, initiative in AI integrations, and significant impact on client deliverables — making a mark in the very first year at Saviant.',
   },
